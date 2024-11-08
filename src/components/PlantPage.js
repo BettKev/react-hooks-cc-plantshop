@@ -8,7 +8,7 @@ function PlantPage() {
   const [plants, setPlants] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:6001/plants")
+    fetch("https://phase2-week2-plantsy-code-challenge.onrender.com/plants")
       .then((response) => response.json())
       .then((data) => setPlants(data));
   }, []);
