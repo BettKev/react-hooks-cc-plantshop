@@ -17,8 +17,6 @@
     "server": "json-server --watch db.json -p 6001",
     "test": "jest --bail",
     "build": "react-scripts build"
-
-
   },
   "eslintConfig": {
     "extends": [
