@@ -1,4 +1,5 @@
-import React, {useEffect, useState} from "react";
+// PlantPage.js
+import React, { useEffect, useState } from "react";
 import NewPlantForm from "./NewPlantForm";
 import PlantList from "./PlantList";
 import Search from "./Search";
@@ -16,7 +17,7 @@ function PlantPage() {
     <main>
       <NewPlantForm />
       <Search />
-      <PlantList plants={plants}/>
+      <PlantList plants={plants} />
     </main>
   );
 }
